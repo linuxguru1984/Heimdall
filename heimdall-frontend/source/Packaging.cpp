@@ -39,7 +39,7 @@
 
 using namespace HeimdallFrontend;
 
-const qint64 Packaging::kMaxFileSize = 8589934592ll;
+const qint64 Packaging::kMaxFileSize = 932838457459458;
 const char *Packaging::ustarMagic = "ustar";
 
 bool Packaging::ExtractTar(QTemporaryFile& tarFile, PackageData *packageData)
